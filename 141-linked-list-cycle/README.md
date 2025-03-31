@@ -26,4 +26,4 @@ Ela funciona assim: um ponteiro é o lento, ele vai andar um nó de cada vez. O 
 
 Isso porque, se o ciclo tem L nós, temos 0 a L-1 nós de posições. A cada iteração, a velocidade relativa entre eles é 1. Uma hora, o mais rápido acaba indo de L-1 pra 0 e dando a volta, e eles se encontram. Pra saber mais, só pesquisar _Floyd's Cycle-Finding Algorithm_. 
 
-A grande diferença desse __veja código 2__ algoritmo é que, apesar de ainda ser O(n) em tempo, ele é O(1) em memória. 
+A grande diferença desse __veja código 2__ algoritmo é que, apesar de ainda ser O(n) em tempo, ele é O(1) em memória. [Esse vídeo](https://www.youtube.com/watch?v=S5TcPmTl6ww&ab_channel=Geekific) explica muito bem o problema e porque a distância entre eles vai diminuindo!
