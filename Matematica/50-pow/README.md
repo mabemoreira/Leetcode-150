@@ -21,3 +21,5 @@ Agora, multiplique x por x, pra ir pra próxima potência de x, que veremos na p
 De um right shift em x pra analisarmos o próximo bit e pronto!
 
 Só precisa ter cuidado com expoente negativo. Nesse caso, coloque o x como 1/x e troque o expoente para positivo __veja o código__
+
+Complexidade de tempo: O(log(n)) - pq iteramos só na quantidade de bits de n, complexidade de memória, 0(1) - não usamos estruturas de dados adicionais
